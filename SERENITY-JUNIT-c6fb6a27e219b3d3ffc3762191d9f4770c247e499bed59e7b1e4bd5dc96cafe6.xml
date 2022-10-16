@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Google Search" skipped="0" tests="1" time="11.95" timestamp="2022-10-16 09:35:51"><testcase name="When Sibasish searches for a specific query string they should be able to see the video section in search results"/></testsuite>
