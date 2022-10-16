@@ -16,7 +16,7 @@ public class ValidateThat {
     }
 
     public static Performable theSearchResultsAreRelevantTo(String theSearchedForText) {
-        return Task.where("{0} verify the relevance of the search results with the search string " + theSearchedForText,
+        return Task.where("{0} verify the relevance of the search results with the search string '" + theSearchedForText + "'",
                 Ensure.that(VIDEO_RESULTS).isDisplayed(),
                 Ensure.that(VIDEO_RESULTS).textContent().containsIgnoringCase(theSearchedForText)
         );
